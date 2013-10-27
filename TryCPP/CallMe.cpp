@@ -6,11 +6,8 @@
 //  Copyright (c) 2013 TryCPP. All rights reserved.
 //
 
-#include <stdio.h>
 #include <iostream>
 
-using namespace std;
-
 void callMe() {
-    cout << "Call from Obj-C" << endl;
+  std::cout << "Call from Obj-C" << std::endl;
 }
