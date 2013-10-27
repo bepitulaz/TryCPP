@@ -12,15 +12,18 @@
 		7B98A474181D507D00F9436D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B98A473181D507D00F9436D /* UIKit.framework */; };
 		7B98A47A181D507D00F9436D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B98A478181D507D00F9436D /* InfoPlist.strings */; };
 		7B98A47C181D507D00F9436D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B98A47B181D507D00F9436D /* main.m */; };
-		7B98A480181D507D00F9436D /* CPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B98A47F181D507D00F9436D /* CPAppDelegate.m */; };
+		7B98A480181D507D00F9436D /* CPAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B98A47F181D507D00F9436D /* CPAppDelegate.mm */; };
 		7B98A483181D507D00F9436D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B98A481181D507D00F9436D /* Main.storyboard */; };
-		7B98A486181D507D00F9436D /* CPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B98A485181D507D00F9436D /* CPViewController.m */; };
+		7B98A486181D507D00F9436D /* CPViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B98A485181D507D00F9436D /* CPViewController.mm */; };
 		7B98A488181D507D00F9436D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B98A487181D507D00F9436D /* Images.xcassets */; };
 		7B98A48F181D507D00F9436D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B98A48E181D507D00F9436D /* XCTest.framework */; };
 		7B98A490181D507D00F9436D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B98A46F181D507D00F9436D /* Foundation.framework */; };
 		7B98A491181D507D00F9436D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B98A473181D507D00F9436D /* UIKit.framework */; };
 		7B98A499181D507D00F9436D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B98A497181D507D00F9436D /* InfoPlist.strings */; };
 		7B98A49B181D507D00F9436D /* TryCPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B98A49A181D507D00F9436D /* TryCPPTests.m */; };
+		7B98A4A9181D54C800F9436D /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B98A4A8181D54C800F9436D /* libstdc++.6.0.9.dylib */; };
+		7B98A4AB181D553F00F9436D /* xcode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B98A4AA181D553F00F9436D /* xcode.mm */; };
+		7B98A4AD181D55C400F9436D /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B98A4AC181D55C400F9436D /* libz.1.2.5.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,16 +46,20 @@
 		7B98A47B181D507D00F9436D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7B98A47D181D507D00F9436D /* TryCPP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TryCPP-Prefix.pch"; sourceTree = "<group>"; };
 		7B98A47E181D507D00F9436D /* CPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPAppDelegate.h; sourceTree = "<group>"; };
-		7B98A47F181D507D00F9436D /* CPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPAppDelegate.m; sourceTree = "<group>"; };
+		7B98A47F181D507D00F9436D /* CPAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CPAppDelegate.mm; sourceTree = "<group>"; };
 		7B98A482181D507D00F9436D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B98A484181D507D00F9436D /* CPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPViewController.h; sourceTree = "<group>"; };
-		7B98A485181D507D00F9436D /* CPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPViewController.m; sourceTree = "<group>"; };
+		7B98A485181D507D00F9436D /* CPViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CPViewController.mm; sourceTree = "<group>"; };
 		7B98A487181D507D00F9436D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7B98A48D181D507D00F9436D /* TryCPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryCPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B98A48E181D507D00F9436D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7B98A496181D507D00F9436D /* TryCPPTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TryCPPTests-Info.plist"; sourceTree = "<group>"; };
 		7B98A498181D507D00F9436D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7B98A49A181D507D00F9436D /* TryCPPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TryCPPTests.m; sourceTree = "<group>"; };
+		7B98A4A6181D54AB00F9436D /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		7B98A4A8181D54C800F9436D /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		7B98A4AA181D553F00F9436D /* xcode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = xcode.mm; sourceTree = "<group>"; };
+		7B98A4AC181D55C400F9436D /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B98A4AD181D55C400F9436D /* libz.1.2.5.dylib in Frameworks */,
+				7B98A4A9181D54C800F9436D /* libstdc++.6.0.9.dylib in Frameworks */,
 				7B98A472181D507D00F9436D /* CoreGraphics.framework in Frameworks */,
 				7B98A474181D507D00F9436D /* UIKit.framework in Frameworks */,
 				7B98A470181D507D00F9436D /* Foundation.framework in Frameworks */,
@@ -101,6 +110,9 @@
 		7B98A46E181D507D00F9436D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7B98A4AC181D55C400F9436D /* libz.1.2.5.dylib */,
+				7B98A4A8181D54C800F9436D /* libstdc++.6.0.9.dylib */,
+				7B98A4A6181D54AB00F9436D /* libstdc++.dylib */,
 				7B98A46F181D507D00F9436D /* Foundation.framework */,
 				7B98A471181D507D00F9436D /* CoreGraphics.framework */,
 				7B98A473181D507D00F9436D /* UIKit.framework */,
@@ -113,12 +125,13 @@
 			isa = PBXGroup;
 			children = (
 				7B98A47E181D507D00F9436D /* CPAppDelegate.h */,
-				7B98A47F181D507D00F9436D /* CPAppDelegate.m */,
+				7B98A47F181D507D00F9436D /* CPAppDelegate.mm */,
 				7B98A481181D507D00F9436D /* Main.storyboard */,
 				7B98A484181D507D00F9436D /* CPViewController.h */,
-				7B98A485181D507D00F9436D /* CPViewController.m */,
+				7B98A485181D507D00F9436D /* CPViewController.mm */,
 				7B98A487181D507D00F9436D /* Images.xcassets */,
 				7B98A476181D507D00F9436D /* Supporting Files */,
+				7B98A4AA181D553F00F9436D /* xcode.mm */,
 			);
 			path = TryCPP;
 			sourceTree = "<group>";
@@ -251,8 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B98A47C181D507D00F9436D /* main.m in Sources */,
-				7B98A480181D507D00F9436D /* CPAppDelegate.m in Sources */,
-				7B98A486181D507D00F9436D /* CPViewController.m in Sources */,
+				7B98A480181D507D00F9436D /* CPAppDelegate.mm in Sources */,
+				7B98A486181D507D00F9436D /* CPViewController.mm in Sources */,
+				7B98A4AB181D553F00F9436D /* xcode.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libstdc++";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TryCPP/TryCPP-Prefix.pch";
 				INFOPLIST_FILE = "TryCPP/TryCPP-Info.plist";
@@ -392,6 +407,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libstdc++";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TryCPP/TryCPP-Prefix.pch";
 				INFOPLIST_FILE = "TryCPP/TryCPP-Info.plist";
@@ -461,6 +477,7 @@
 				7B98A4A0181D507D00F9436D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B98A4A1181D507D00F9436D /* Build configuration list for PBXNativeTarget "TryCPPTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +486,7 @@
 				7B98A4A3181D507D00F9436D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

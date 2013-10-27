@@ -7,6 +7,7 @@
 //
 
 #import "CPViewController.h"
+#import "xcode.mm"
 
 @interface CPViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    callMe();
 }
 
 - (void)didReceiveMemoryWarning
